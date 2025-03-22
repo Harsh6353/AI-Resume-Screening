@@ -23,6 +23,7 @@ This project is an AI-powered **Resume Screening and Ranking System** that helps
 ```bash
 git clone https://github.com/<your-username>/AI-Resume-Screening.git
 cd AI-Resume-Screening
+```bash
 
 ### **2. Install Dependencies**
 Ensure you have Python 3 installed. Then, run:
