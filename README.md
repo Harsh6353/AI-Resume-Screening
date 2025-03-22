@@ -48,6 +48,12 @@ View the extracted text (optional).
 
 See the predicted job category for the uploaded resume.
 
+# 1. Clone the Repository 
+```
+git clone https://github.com/<your-username>/AI-Resume-Screening.git
+cd AI-Resume-Screening
+```
+
 # Pre-Trained Models
 The system uses the following pre-trained models and files:
 
