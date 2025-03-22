@@ -1,31 +1,66 @@
-# **AI-Powered Resume Screening & Ranking System**  
+# AI-powered-Resume-Screening-and-Ranking-System
+# Overview
+The AI-Powered Resume Screening System is a web application designed to automate the process of categorizing resumes based on their content. Built using Python and Streamlit, this system leverages machine learning to predict the job category of a resume by analyzing its text. It supports resumes in PDF, DOCX, and TXT formats, making it versatile for various use cases.
 
-## **Overview**  
-This project is an AI-powered **Resume Screening and Ranking System** that helps recruiters quickly evaluate and rank resumes based on job descriptions. The system extracts text from resumes, analyzes content using **Natural Language Processing (NLP)**, and ranks candidates using **TF-IDF and Cosine Similarity**.  
+This project is ideal for recruiters, HR professionals, and organizations looking to streamline their resume screening process and improve efficiency.
+Resume Text Extraction: Extracts text from PDF, DOCX, and TXT files.
+# Features
+Text Cleaning: Preprocesses and cleans resume text for better analysis.
 
-## **Features**  
-✅ Upload multiple **PDF resumes**  
-✅ Analyze job descriptions and match resumes  
-✅ Rank resumes based on **relevance**  
-✅ Generate **feedback and suggestions** for candidates  
-✅ **Visualize rankings** using bar charts  
+Job Category Prediction: Uses a pre-trained machine learning model to predict the job category of a resume.
 
-## **Technologies Used**  
-- **Python** (Core Programming)  
-- **Streamlit** (GUI Development)  
-- **PyPDF2** (Extracting text from PDFs)  
-- **Scikit-learn** (TF-IDF and Cosine Similarity)  
-- **Pandas & NumPy** (Data Handling & Processing)  
+User-Friendly Interface: Built with Streamlit for an intuitive and interactive webinterface.
 
-## **Installation**  
+Flexible File Support: Handles multiple file formats for convenience.
 
-### **1. Clone the Repository**  
-```bash
-git clone https://github.com/<your-username>/AI-Resume-Screening.git
-cd AI-Resume-Screening
-```bash
+# How It Works
+Upload a Resume: Users can upload a resume in PDF, DOCX, or TXT format.
 
-### **2. Install Dependencies**
-Ensure you have Python 3 installed. Then, run:
-```bash
-pip install -r requirements.txt
+Text Extraction: The system extracts text from the uploaded file.
+
+Text Cleaning: The extracted text is cleaned and preprocessed to remove unnecessary elements (e.g., URLs, special characters).
+
+Prediction: The cleaned text is passed through a pre-trained machine learning model to predict the job category.
+
+Result Display: The predicted job category is displayed to the user.
+or TXT format.
+# Technology Used 
+Python: Core programming language.
+
+Streamlit: For building the web application interface.
+
+Scikit-learn: For machine learning model training and prediction.
+
+PyPDF2: For extracting text from PDF files.
+
+python-docx: For extracting text from DOCX files.
+
+Pickle: For loading pre-trained models and vectorizers.
+
+Regex (re): For text cleaning and preprocessing.
+
+# Usage
+Open the app in your browser after running the Streamlit command.
+
+Upload a resume file (PDF, DOCX, or TXT).
+
+View the extracted text (optional).
+
+See the predicted job category for the uploaded resume.
+
+# Pre-Trained Models
+The system uses the following pre-trained models and files:
+
+clf.pkl: Trained classifier for job category prediction. (Skipped this file in the repository due to size issue)
+
+tfidf.pkl: TF-IDF vectorizer for text transformation.
+
+encoder.pkl: Label encoder for decoding predicted categories.
+
+Ensure these files are present in the project directory for the system to function correctly.
+
+Enjoy using the AI-Powered Resume Screening System! 🚀
+
+## Demo Screenshots  
+![App Dashboard](Screenshots.pdf)  
+  
